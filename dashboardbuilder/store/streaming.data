@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<chartdata>
+<col>
+<source>upload</source>
+<ssl/>
+<servername/>
+<username/>
+<password/>
+<dbname/>
+<dbconnected/>
+
+
+
+
+
+
+
+
+<title>GOOGLE Finance NYSE</title><orientation>v</orientation><filter>false</filter><dropdown>false</dropdown><legposition/><name>0</name><xaxistitle>Time</xaxistitle><yaxistitle>Price</yaxistitle><height/><width/><datalabel>true</datalabel><showgrid>true</showgrid><showline>true</showline>
+<rdbms/>
+<file/>
+<json>https://api.dashboardbuilder.net/samplejson/</json>
+
+
+<xaxis>XLS:{col}NYT{/col}{data}02-36-11am{/data}</xaxis><yaxis>XLS:{col}Price{/col}{data}2723-68{/data}</yaxis><xmodel/><xsort/><ymodel/><ysort/><sql/><size/><maptype/><text/><tracename>GOOG</tracename><yntitle/><color/><type>line</type><refresh>20</refresh><streaming>y</streaming></col>
+</chartdata>

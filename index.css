@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+:root {
+  --color-red: #ec1840;
+  --color-purple: #7a18ec;
+  --color-white: #fff;
+  --color-black-1: #111;
+  --color-black-2: #222;
+  --color-black-3: #444;
+  --speed-normal: 0.5s;
+  --speed-fast: 0.8s;
+}
+
+body{
+	background-color:black;
+}
+
+#warpper{
+	width: 100%;
+	background-color:black;
+}
+
+#title{
+	width:100%;
+	text-align:center;
+	border-bottom-width:.5%;
+	border-bottom-style:solid;
+	border-bottom-color:var(--color-red);
+	
+}
+
+#lock{
+	background-color: grey;
+	text-align:center;
+	float:center;
+	font-size: 300%;
+	width:50%;
+	padding:2%;
+	margin:2% auto;
+}
+
+.log-in{
+	font-size: 100%;
+	width:80%;
+	margin:2%;
+}
+
+
+@-webkit-keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+@keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+.ticker-wrap {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+  height: 4rem;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding-left: 100%;
+  box-sizing: content-box;
+}
+.ticker-wrap .ticker {
+  display: inline-block;
+  height: 4rem;
+  line-height: 4rem;
+  white-space: nowrap;
+  padding-right: 100%;
+  box-sizing: content-box;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-name: ticker;
+  animation-name: ticker;
+  -webkit-animation-duration: 30s;
+  animation-duration: 30s;
+}
+.ticker-wrap .ticker__item {
+  display: inline-block;
+  padding: 0 2rem;
+  font-size: 2rem;
+  color: white;
+}
+
+body {
+  padding-bottom: 5rem;
+}
+
+h1, h2, p {
+  padding: 0 5%;
+}
+
+#lat{
+	width:15%;
+	height:100%;
+	margin: auto;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.menu{
+	width:80%;
+	margin: 20% auto;
+	border: 0.5% solid blue;
+	border-radius: 10%;
+	background-color:grey;
+	text-align:center;
+}
+
+#ops, #bals{
+	width:83%;
+	margin:auto;
+	padding: 1% 1%;
+	display: inline-block;
+}
+
+.assetsCalc, .assets, #calendar{
+	width:30%;
+	margin:0.5% auto;
+	background-color: white;
+	display:inline-block;
+	vertical-align: top;
+}
+
+#calendar{
+	background-color: black;
+}
+
+.operation{
+	width:100%;
+	margin:0.5% auto;
+    border-radius: 20%;
+	padding: 0.5% 0.5%;
+	background-color: white;
+	
+}
+
+.part1{
+	width:25%;
+	text-align:center;
+	display: inline-block;
+
+}
+
+.part2{
+	width:65%;
+	display: inline-block;
+}
+
+.date{
+    font-size: small;
+    color: grey;
+	margin: 10px 10px 10px 10px;
+	padding: 5px 5px 5px 5px;
+}
+
+.transaction{
+	font-size: x-large;
+	width:70%;
+	margin: 10px 10px 10px 10px;
+	padding: 5px 5px 5px 5px;
+	display: inline;
+}
+
+.currency{
+	width:25%;
+	background-color:white;
+	display: inline;
+	margin: 5%;
+}
+
+.info{
+	width:20%;
+	float:right;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.but, .logbut {
+  letter-spacing: 1%;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--color-white);
+  transition: var(--speed-normal);
+  border: 1px solid var(--color-red);
+  
+}
+
+.but{
+  position: relative;
+  width:80%;
+  margin: 10% 6%;
+  line-height: 200%;
+  padding:2%;
+  display: inline-block;
+}
+
+.logbut{
+  font-size: 100%;
+  padding:0.5%;
+  color: black;
+}
+
+.but:hover, .logbut:hover {
+  border: 1px solid transparent;
+  background: var(--color-red) url(https://i.postimg.cc/wBXGXbWN/pixel.png);
+  transition-delay: 0.8s;
+  background-size: 180px;
+  -webkit-animation: animate var(--speed-fast) steps(8) forwards;
+          animation: animate var(--speed-fast) steps(8) forwards;
+}
+
+@-webkit-keyframes animate {
+  0% {
+    background-position-y: 0;
+  }
+  100% {
+    background-position-y: -480px;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position-y: 0;
+  }
+  100% {
+    background-position-y: -480px;
+  }
+}
