@@ -3,9 +3,9 @@
 		<meta charset="utf-8" />
 		<title>Crytpo Taxes</title>
 
-		<meta content="Nombre del Autor" name="author" />
-		<meta content="Descripción de la página" name="description" />
-		<meta content="etiqueta1, etiqueta2, etiqueta3" name="keywords" />
+		<meta content="David Delgado Dueñas" name="author" />
+		<meta content="CryptoTaxes" name="description" />
+		<meta content="crypto, bitcoin, trading" name="keywords" />
 
 		<link href="index.css" rel="stylesheet" type="text/css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -21,16 +21,7 @@
 			<div id='title'>
 				<img src='img/Head.gif' alt= 'CRYPTO TAXES' width=60%>
 			</div>
-			<!-- 
-			<div id='lock'>
-			    <p>Logueate</p>
-			    <form method="post" action="">
-				    <input class='log-in' type="password" name="password">
-					<br>
-					<input class='logbut' type="submit" value="Login">
-			    </form>
-            </div>		
-			-->
+		
 			<div class='ticker-wrap'>
 				<div class='ticker'>
 					<div class='ticker__item'>Actual Assets:</div>
